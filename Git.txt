@@ -8,3 +8,4 @@ git add Git.txt добавит файлов
 	Подтверждение изменений
 git commit -m "Added file"
 git commit если без комментария в винде откроется вин
+git commit -am "What?"
