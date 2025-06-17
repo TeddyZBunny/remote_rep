@@ -67,3 +67,4 @@ IdentifyFile C:\Users\user\.ssh\id_ed25519
 git branch -d <имя_ветки> 
 git branch -D <имя_ветки>
 git push origin --delete <branchName>
+git push origin HEAD отправит текущую ветку на удаленный аналог на github, если он существует 
