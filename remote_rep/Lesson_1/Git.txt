@@ -71,8 +71,9 @@ IdentifyFile C:\Users\user\.ssh\id_ed25519
 	Удаление ветки локально и удаленно
 git branch -d <имя_ветки> 
 git branch -D <имя_ветки>
+git branch -m branch_name - переименует текущую ветку
 git push origin --delete <branchName>
-git push origin HEAD отправит текущую ветку на удаленный аналог на github, если он существует 
+
 
 
 	Full commit.
@@ -86,3 +87,4 @@ git checkout main
 git merge branch_name
 
 git branch --set-upstream-to=origin/branch_name - если локальная ветка не связана с удаленной
+git push origin HEAD - пуш в ветку с таким же названием
