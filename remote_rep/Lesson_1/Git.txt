@@ -73,3 +73,13 @@ git branch -d <имя_ветки>
 git branch -D <имя_ветки>
 git push origin --delete <branchName>
 git push origin HEAD отправит текущую ветку на удаленный аналог на github, если он существует 
+
+
+	Full commit.
+
+git switch -c new_branch
+git add .
+git commit -m ""
+git push -u origin branch_name
+git checkout main
+git merge branch_name
