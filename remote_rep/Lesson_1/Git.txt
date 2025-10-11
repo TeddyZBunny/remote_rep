@@ -77,12 +77,11 @@ git push origin HEAD отправит текущую ветку на удале�
 
 	Full commit.
 
-git switch -c new_branch
+git switch -c new_branch - создаем новую ветку
+git push -u origin branch_name - добавляем удаленно ветку
 git add .
 git commit -m ""
-git push -u origin branch_name
 git checkout main
 git merge branch_name
 
-git branch --set-upstream-to=origin/branch_name - если локальная ветка не связана с текущей
-git push -u origin branch_name - чтобы создать ветку удаленно
+git branch --set-upstream-to=origin/branch_name - если локальная ветка не связана с удаленной
