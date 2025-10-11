@@ -54,6 +54,11 @@ git clone ссылка ssh из гитхаба
 	Проверка и получение новох изменений в УР
 git pull
 
+	Создание ветки удаленной
+git push -origin les_5
+Он попросит
+git push --set-upstream les_5 
+
 	Создание мастера и ветки в УР
 git push --set--upstream название_репозитория master
 git push --set--upstream название_репозитория название ветки
