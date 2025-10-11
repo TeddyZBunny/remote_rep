@@ -81,6 +81,7 @@ git switch -c new_branch - создаем новую ветку
 git push -u origin branch_name - добавляем удаленно ветку
 git add .
 git commit -m ""
+git push
 git checkout main
 git merge branch_name
 
