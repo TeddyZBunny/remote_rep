@@ -4,7 +4,7 @@ import random # Модуль рандомных функцих
 import sys
 import mymodule
 
-asist(1)
+
 
 print(sys.platform)
 
@@ -13,3 +13,7 @@ print(random.randrange(6,8)) #рандрендж до невключительн
 
 users=['Aleks','Antont','Sergey']
 print(random.choice(users))
+
+b='text'
+
+asist('text')
