@@ -2,7 +2,7 @@
 # Репозиторий для всех сторонних модулей питона - pypi.org
 import random # Модуль рандомных функцих
 import sys
-import mymodule
+from mymodule import asist
 
 
 
