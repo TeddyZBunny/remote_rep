@@ -78,6 +78,11 @@ git push origin --delete <branchName>
 
 	Full commit.
 
+	git init
+git pull ссылка
+git remote add origin ссылка
+git fetch origin
+
 git switch -c new_branch - создаем новую ветку
 git push -u origin branch_name - добавляем удаленно ветку
 git add .
