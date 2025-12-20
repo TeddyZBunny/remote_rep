@@ -27,3 +27,5 @@ cursor.execute('SELECT * FROM Customer')
 # print(cursor.fetchone())
 print(cursor.fetchall())
 con.close()
+
+
